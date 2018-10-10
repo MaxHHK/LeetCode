@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		50A571C5216E3BE00046A60E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A571C4216E3BE00046A60E /* main.cpp */; };
+		50A571CC216E3DC60046A60E /* _412_Fizz Buzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A571CB216E3DC60046A60E /* _412_Fizz Buzz.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		50A571C1216E3BE00046A60E /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A571C4216E3BE00046A60E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		50A571CB216E3DC60046A60E /* _412_Fizz Buzz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_412_Fizz Buzz.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				50A571C4216E3BE00046A60E /* main.cpp */,
+				50A571CB216E3DC60046A60E /* _412_Fizz Buzz.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A571CC216E3DC60046A60E /* _412_Fizz Buzz.cpp in Sources */,
 				50A571C5216E3BE00046A60E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  _412_Fizz Buzz.cpp
 //  LeetCode
 //
 //  Created by Max on 2018/10/10.
