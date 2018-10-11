@@ -34,7 +34,7 @@ public:
     }
 };
 
-int main() {
+int FizzBuzz() {
     
     Solution solution;
     
