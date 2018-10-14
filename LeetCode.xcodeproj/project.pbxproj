@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		505F42722173995D00D2C7AB /* matrix_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 505F42712173995D00D2C7AB /* matrix_reader.cpp */; };
 		5088787D216EFC2E0040509F /* _542_01-matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5088787C216EFC2E0040509F /* _542_01-matrix.cpp */; };
 		50A571C5216E3BE00046A60E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A571C4216E3BE00046A60E /* main.cpp */; };
 		50A571CC216E3DC60046A60E /* _412_Fizz Buzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A571CB216E3DC60046A60E /* _412_Fizz Buzz.cpp */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		505F426521738E4000D2C7AB /* ErrorLog.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ErrorLog.txt; sourceTree = "<group>"; };
+		505F42712173995D00D2C7AB /* matrix_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrix_reader.cpp; sourceTree = "<group>"; };
 		5088787C216EFC2E0040509F /* _542_01-matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_542_01-matrix.cpp"; sourceTree = "<group>"; };
 		50A571C1216E3BE00046A60E /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A571C4216E3BE00046A60E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 			path = AC;
 			sourceTree = "<group>";
 		};
+		505F4269217397BA00D2C7AB /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				505F42712173995D00D2C7AB /* matrix_reader.cpp */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
 		50A571B8216E3BE00046A60E = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 			children = (
 				50A571C4216E3BE00046A60E /* main.cpp */,
 				505F426521738E4000D2C7AB /* ErrorLog.txt */,
+				505F4269217397BA00D2C7AB /* Module */,
 				505F42672173972E00D2C7AB /* AC */,
 			);
 			path = LeetCode;
@@ -134,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505F42722173995D00D2C7AB /* matrix_reader.cpp in Sources */,
 				50A571CC216E3DC60046A60E /* _412_Fizz Buzz.cpp in Sources */,
 				50A571C5216E3BE00046A60E /* main.cpp in Sources */,
 				5088787D216EFC2E0040509F /* _542_01-matrix.cpp in Sources */,
