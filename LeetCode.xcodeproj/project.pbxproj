@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		505F426521738E4000D2C7AB /* ErrorLog.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ErrorLog.txt; sourceTree = "<group>"; };
 		5088787C216EFC2E0040509F /* _542_01-matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_542_01-matrix.cpp"; sourceTree = "<group>"; };
 		50A571C1216E3BE00046A60E /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A571C4216E3BE00046A60E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -42,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		505F42672173972E00D2C7AB /* AC */ = {
+			isa = PBXGroup;
+			children = (
+				50A571CB216E3DC60046A60E /* _412_Fizz Buzz.cpp */,
+				5088787C216EFC2E0040509F /* _542_01-matrix.cpp */,
+			);
+			path = AC;
+			sourceTree = "<group>";
+		};
 		50A571B8216E3BE00046A60E = {
 			isa = PBXGroup;
 			children = (
@@ -62,8 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				50A571C4216E3BE00046A60E /* main.cpp */,
-				50A571CB216E3DC60046A60E /* _412_Fizz Buzz.cpp */,
-				5088787C216EFC2E0040509F /* _542_01-matrix.cpp */,
+				505F426521738E4000D2C7AB /* ErrorLog.txt */,
+				505F42672173972E00D2C7AB /* AC */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";

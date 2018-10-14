@@ -1,8 +1,8 @@
 //
-//  main.cpp
+//  _542_01-matrix.cpp
 //  LeetCode
 //
-//  Created by Max on 2018/10/10.
+//  Created by Max on 2018/10/11.
 //  Copyright © 2018 Max. All rights reserved.
 //
 
@@ -134,7 +134,7 @@ public:
     }
 };
 
-int main() {
+int matrix_01() {
     Solution solution;
     vector<vector<int>> ans;
     char X, x;
