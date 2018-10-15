@@ -2,20 +2,23 @@
     Oct 12, 2018 {
         Runtime Error Message {
             free(): invalid next size (normal): 0x0000000000fd5540 ***
-        }
-        Solution {
-            column and row of matrix might be different
+            Solution {
+                column and row of matrix might be different
+            }
         }
     }
 }
 
-01-matrix{
-    Oct 14, 2018 {
-        errorName {
-            Time Limit Exceeded
+924. Minimize Malware Spread{
+    Oct 15, 2018 {
+        memset {
+            memset does not work
+            Solution {
+                memset(pointer, aiming number, memory size of aiming memory)
+            }
         }
-        Solution {
-            
+        multi edge problems {
+            sequence
         }
     }
 }
